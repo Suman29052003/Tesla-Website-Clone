@@ -4,16 +4,18 @@ const Menu = () => {
   return (
     <>
       <NavLink to="/">
-        <div className="close w-[94%] text-right">
+        <div className="close w-[94%] text-right ">
           <span class="material-symbols-outlined p-6">close</span>
         </div>
       </NavLink>
 
-      <div className="links w-full flex flex-col items-center text-xl font-semibold mt-7 ">
-        <div className="w-[90%] p-6 flex justify-between">
+      <div className="links w-full flex flex-col items-center text-xl font-semibold mt-7 md:hidden  ">
+        <NavLink to ="/vehicle" className="w-[90%]">
+          <div className=" p-6 flex justify-between">
           <span>Vehicle</span>
-          <span class="material-symbols-outlined">chevron_right</span>
+          <span class="material-symbols-outlined ">chevron_right</span>
         </div>
+        </NavLink>
         <div className="w-[90%] p-6 flex justify-between">
           <span>Energy</span>
           <span class="material-symbols-outlined">chevron_right</span>

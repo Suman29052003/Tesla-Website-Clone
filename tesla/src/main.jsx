@@ -9,6 +9,7 @@ import Energy from "./assets/Energy.jsx";
 import Menu from "./assets/Menu.jsx";
 import CustomOrder from "./assets/CustomOrder.jsx";
 import DemoDrive from "./assets/DemoDrive.jsx";
+import SecnavHover from "./assets/SecnavHover.jsx";
 
 let router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ let router = createBrowserRouter([
   {
     path : "/demodrive",
     element : <DemoDrive/>
+  },
+  {
+    path : "/vehicle",
+    element : <SecnavHover/>
   }
   
 ]);
