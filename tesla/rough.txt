@@ -1,0 +1,2 @@
+border-4 border-blue-300
+border-2 border-gray-300
