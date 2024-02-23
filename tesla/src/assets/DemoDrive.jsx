@@ -46,7 +46,7 @@ const DemoDrive = () => {
           <div className="title text-left w-full text-xl ">
             <span>Select Model</span>
           </div>
-          <div className="flex justify-between w-[100%] gap-2 mt-4 text-sm md:text-[16px] text-center">
+          <div className="flex justify-between w-[116%] md:w-full gap-2 mt-4 text-sm md:text-[16px] text-center">
             <div
               className={`${
                 border === "Model S"

@@ -13,7 +13,7 @@ export default function Main(props) {
           <h4 className="text-2xl w-full my-4">Lease starting at $379/mo*</h4>
         </div>
 
-        <div className="w-full  md:mt-[27rem] flex justify-center items-end mt-[50vh]">
+        <div className="w-full  md:mt-[27rem] flex justify-center items-end mt-[40vh]">
           <div className="bg-[#cfcecf] w-60 h-10 m-4 p-4 rounded-md flex items-center justify-center cursor-pointer hover:scale-105">
           <NavLink to ="/custom-order"><span className=" text-[16px] md:text-lg font-semibold">Custom Order</span></NavLink>
           </div>
