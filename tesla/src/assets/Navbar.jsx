@@ -10,7 +10,7 @@ export default function Navbar() {
   useEffect(()=>{
     const interval = setInterval(()=>{
       setCurrentIndex((prevIndex)=>(prevIndex+1) % text.length)
-        },10000) ;
+        },8000) ;
 
   },[])
 
